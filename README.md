@@ -2,7 +2,7 @@
 
 Engenheiro full stack. Há 6 anos levo aplicação web e SaaS da arquitetura até produção.
 
-Site: [almeida.korvenlab.com](https://almeida.korvenlab.com/)
+Portifolio: [almeida.korvenlab.com](https://almeida.korvenlab.com/)
 
 ## Stack atual
 
