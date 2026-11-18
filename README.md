@@ -15,6 +15,17 @@ Portifolio: [almeida.korvenlab.com](https://almeida.korvenlab.com/)
 
 No dia a dia o produto sai em TypeScript, com React na interface, Node.js na API e PostgreSQL nos dados. Publicação com AWS e Docker.
 
+## Em destaque
+
+**[Delivery Lab](https://github.com/almeidasantosdev/delivery-lab)** é o laboratório público de entrega. A API recebe um webhook de pagamento fictício e grava o evento uma única vez. Um worker tenta entregar esse evento. Se a mesma chave chega de novo, a resposta devolve o job que já existe. Se o provedor falha, a tentativa volta para a fila com espera de 1s, 2s, 4s, até 60s.
+
+O repositório leva o código até a operação: Dockerfile em dois estágios, Compose com PostgreSQL, Prometheus e Grafana, esteira no GitHub Actions e Terraform para uma VPC, uma EC2 e um bucket S3 privado.
+
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
 ## Em produção
 
 | Projeto | O que é | Onde ver |
