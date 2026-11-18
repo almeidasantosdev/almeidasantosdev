@@ -31,6 +31,7 @@ Laboratório público de entrega e operação.
 | Projeto | O que é |
 | --- | --- |
 | [Delivery Lab](https://github.com/almeidasantosdev/delivery-lab) | API que recebe um webhook de pagamento fictício, grava o evento uma única vez e reentrega com espera crescente. Dockerfile, Compose, Prometheus, Grafana, GitHub Actions e Terraform. |
+| [Delivery Lab no Kubernetes](https://github.com/almeidasantosdev/delivery-lab-k8s) | O mesmo container num cluster local com Kind ou k3s. Deployment, Service, probes, HorizontalPodAutoscaler e PostgreSQL, com manifestos para Kubernetes e OpenShift. |
 
 ## Faculdade
 
