@@ -35,6 +35,15 @@ Laboratório público de entrega e operação.
 | [Delivery Lab](https://github.com/almeidasantosdev/delivery-lab) | API que recebe um webhook de pagamento fictício, grava o evento uma única vez e reentrega com espera crescente. Dockerfile, Compose, Prometheus, Grafana, GitHub Actions e Terraform na AWS. |
 | [Delivery Lab no Kubernetes](https://github.com/almeidasantosdev/delivery-lab-k8s) | O mesmo container num cluster local com Kind ou k3s. Deployment, Service, probes, HorizontalPodAutoscaler e PostgreSQL. |
 
+## Dados
+
+Laboratório público de tratamento e indicadores.
+
+| Projeto | O que é |
+| --- | --- |
+| [Análise operacional](https://github.com/almeidasantosdev/analise-operacional) | Base fictícia de pedidos. O pandas limpa duplicidade, quantidade, desconto e data, e calcula receita, margem, prazo e cancelamento. O modelo do Power BI fica em medidas DAX. |
+| [Indicadores em SQL](https://github.com/almeidasantosdev/sql-indicadores) | A mesma base em SQL. Prazo por centro, margem por canal, pareto de produtos e variação mensal. A receita fecha no CSV. |
+
 ## Também no GitHub
 
 - [ka.dev](https://github.com/almeidasantosdev/ka.dev) — site pessoal
